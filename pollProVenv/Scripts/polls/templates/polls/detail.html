@@ -1,6 +1,7 @@
 {% extends "polls/base.html" %}
 
 {% block main_content %}
+  <p><a href="{% url 'logout' %}">logout</a></p>
 
 <h1>{{question.question_text}}</h1>
 
